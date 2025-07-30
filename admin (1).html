@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+</head>
+<body>
+  <h1>Admin Panel</h1>
+  <form id="scoreForm">
+    <label>Batsman Name: <input type="text" id="batsman" /></label><br>
+    <label>Runs Scored: <input type="number" id="runs" /></label><br>
+    <label>Ball Type: 
+      <select id="ballType">
+        <option value="normal">Normal</option>
+        <option value="wide">Wide</option>
+        <option value="no-ball">No Ball</option>
+        <option value="wicket">Wicket</option>
+      </select>
+    </label><br>
+    <button type="submit">Update</button>
+  </form>
+  <script src="js/firebase.js"></script>
+</body>
+</html>

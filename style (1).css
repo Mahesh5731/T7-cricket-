@@ -1,0 +1,4 @@
+body { font-family: Arial; padding: 20px; background: #f9f9f9; }
+h1 { color: darkgreen; }
+nav a { margin: 0 10px; color: blue; text-decoration: none; }
+section { background: white; padding: 20px; margin-top: 20px; box-shadow: 0 0 5px #ccc; }
